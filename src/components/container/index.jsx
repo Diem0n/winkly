@@ -4,7 +4,7 @@ const Container = ({ data }) => {
         <div className="grid">
             {data.map((item, idx) => {
               return (
-                <a href={item?.link} target="_blank" key={idx}>
+                <a href={item?.url} target="_blank" key={idx}>
                   <div className="col">
                     <h2 className="itemTitle">{item?.title || item?.link}</h2>
                       {
