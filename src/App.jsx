@@ -1,10 +1,9 @@
 import { useEffect, useState } from "react";
 
-import AddBookmark from "./Form";
+import AddBookmark from "./components/Form";
 import "./App.css";
-import Container from "./container";
-import Nav from "./Nav";
-import Loader from './Loader';
+import Container from "./components/container";
+import Nav from "./components/Nav";
 function App() {
   const [dataList, setData] = useState([]);
   useEffect(()=>{
