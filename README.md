@@ -16,7 +16,7 @@ Windkly is a simple and user-friendly web application designed to help you organ
 
 ### Installation
 
-No installation required. Visit [Winkly](#) in your web browser and start organizing your bookmarks today!
+No installation required. Visit [Winkly](https://winkly.netlify.app/) in your web browser and start organizing your bookmarks today!
 
 ## Usage
 
