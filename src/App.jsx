@@ -16,11 +16,12 @@ function App() {
 
   },[])
   const [toggleForm, setToggleForm] = useState(true);
-  const handleUpdate = (item) => {
+  const handleUpdate = (item)  => {
+    localStorage.setItem('links' , JSON.stringify([...dataList , item]))
     setData((prev) => {
       return [...prev, item];
     });
-    localStorage.setItem('links' , JSON.stringify(dataList))
+
   };
   const handleToggle = () => {
     setToggleForm((prev) => !prev);
