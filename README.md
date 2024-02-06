@@ -8,6 +8,7 @@
 - **Wink it**: Add bookmarks with a wink and a smile, making the process enjoyable.
 
 ### Build Status
+
  [![Netlify Status](https://api.netlify.com/api/v1/badges/b1f35183-1cfe-4960-bd81-17931cd201b9/deploy-status)](https://app.netlify.com/sites/winkly/deploys)
 
 # Release Notes
@@ -26,8 +27,6 @@
 - Modern web browser
 - Internet connection
 
-
-
 ### Installation
 
 No installation required. Visit [Winkly](https://winkly.netlify.app/) in your web browser and start organizing your bookmarks today!
@@ -45,7 +44,6 @@ Contributions are welcome! Feel free to open issues or submit pull requests to h
 ## License
 
 This project is licensed under the [MIT License](LICENSE.md) - see the [LICENSE.md](LICENSE.md) file for details.
-
 
 Happy bookmarking with Winkly! 🌬️
 
