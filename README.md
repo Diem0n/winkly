@@ -1,4 +1,11 @@
-# Windkly - Bookmark Storage Web App
+# Winkly - Bookmark Storage Web App
+
+<div  style="text-align:center; margin-top: 1rem">
+<figure style="display:flex; flex-direction:column; align-items: center">
+    <img src="./public/wink2.webp" height=150   width=150 />
+    <caption >Give us a wink ya dink!</caption>
+</figure>
+</div>
 
 [Winkly](https://winkly.netlify.app/) is a simple and user-friendly web application designed to help you organize and store your bookmarks efficiently. Say goodbye to scattered bookmarks and hello to a streamlined and personalized bookmarking experience!
 
