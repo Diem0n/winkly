@@ -5,6 +5,9 @@ Windkly is a simple and user-friendly web application designed to help you organ
 ## Features
 
 - **User-Friendly Interface**: Intuitive design for easy navigation and bookmark management.
+
+### Build Status
+ [![Netlify Status](https://api.netlify.com/api/v1/badges/b1f35183-1cfe-4960-bd81-17931cd201b9/deploy-status)](https://app.netlify.com/sites/winkly/deploys)
 - **Wink it**: Add bookmarks with a wink and a smile, making the process enjoyable.
 
 ## Getting Started
@@ -13,6 +16,8 @@ Windkly is a simple and user-friendly web application designed to help you organ
 
 - Modern web browser
 - Internet connection
+
+
 
 ### Installation
 
@@ -34,3 +39,13 @@ This project is licensed under the [MIT License](LICENSE.md) - see the [LICENSE.
 
 
 Happy bookmarking with Windkly! 🌬️
+
+
+## Release Notes 
+
+
+|  Version |   | Features  |   |   |
+|---|---|---|---|---|
+| 1.0.0  |   | Initial Release  |   |   |
+| 1.1.0  |   |  Feature Update : Export Data In `JSON` <br> Fixed Overlapping Text Bug <br> Tasks now sorted in the followinhg order (newsest-oldest)|   |   |
+|   |   |   |   |   |

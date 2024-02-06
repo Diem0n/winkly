@@ -39,17 +39,23 @@ nav {
 nav :nth-child(1) {
   font-size: 1.5em;
 }
-nav :nth-child(2) {
+.controls > * {
   outline: none;
   background-color: #000;
   border: none;
   padding: 0.8rem 2rem;
   font-size: 1.2em;
+  cursor: pointer;
   border-radius: 1.2vw;
 }
 .nav :nth-child(2):focus{
   outline: 2px solid #fff
         }
+        .controls{
+          display: flex;
+          gap: 1rem;
+        }
+
 form {
 
   min-width: clamp(25vw, 40rem, 30dvw);
@@ -156,12 +162,12 @@ input:focus {
   column-fill: balance; */
 }
 .col {
-  background: hsla(0, 0%, 6%, 0.357);
+  background: hsla(240, 3%, 93%, 0.349);
 
   min-height: 20rem;
   border-radius: 16px;
   height : 100%;
-  padding: clamp(0.5rem, 4vmin, 2rem);
+  padding: clamp(1.5rem, 5vmin, 4rem);
   max-height: 40rem;
   width: 100%;
   display: flex;
@@ -211,6 +217,7 @@ input:focus {
   border-radius: 0.5rem;
   text-transform: uppercase;
   color: #fff;
+  font-size: 1.4rem;
 }
 .tagHint{
   color: #000;
@@ -225,13 +232,20 @@ h4 {
 }
 
 .itemTitle {
-  font-size: 3em;
-  color: #fff;
+  font-size: clamp(1rem, 2.5vw, 2rem); 
+  color: #131212;
   text-transform: capitalize;
+word-wrap: break-word;
+white-space: pre-wrap;
+word-break: break-word;
   margin: 0;
   margin-top: 1rem;
 }
 
 .itemDescription {
-  font-size: 1.2em;
+  font-size: 1.6em;
+  text-wrap: wrap;
+  font-weight: 600;
+  color: rgb(151, 148, 148);
+
 }

@@ -28,15 +28,14 @@ const AddBookmark = ({ abortController, handler }) => {
     }
     if(formData.url.length >  1 && formData.title.length > 1   ){setHasError(false)}
     if(!hasError){
-      handler(formData)
       setFormData({
         title: "",
         url: "",
         description: "",
         tags: [],})
+      }
+      handler(formData)
     }
-
-  }
   const handleInput = (key, data) => {
     setError({
       title: "",
@@ -111,7 +110,7 @@ const AddBookmark = ({ abortController, handler }) => {
         />
       </div>
       <p className="tagHint">*add tags seperated by comma or space </p>
-      <button type="submit" onClick={handleSubmit} className="btn--submit">
+      <button type="button" onClick={(e)=>{handleSubmit(e)}} className="btn--submit">
         wink it
       </button>
       <button onClick={handleAbort} type="button" className="btn--cancel">
