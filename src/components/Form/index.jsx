@@ -28,13 +28,13 @@ const AddBookmark = ({ abortController, handler }) => {
     }
     if(formData.url.length >  1 && formData.title.length > 1   ){setHasError(false)}
     if(!hasError){
+      handler(formData)
       setFormData({
         title: "",
         url: "",
         description: "",
         tags: [],})
       }
-      handler(formData)
     }
   const handleInput = (key, data) => {
     setError({
