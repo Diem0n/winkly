@@ -151,13 +151,13 @@ input:focus {
   gap: 2rem;
   margin: 5rem auto;
   display: grid;
-
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-auto-flow: dense;
   grid-row: 20rem;
   max-width: 90dvw;
   /* columns: 5;
   column-fill: balance; */
+
 }
 .col {
   background: hsla(240, 3%, 93%, 0.349);
@@ -178,7 +178,7 @@ input:focus {
   border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-.grid > * {
+/* .grid > * {
   display: flex;
   align-items: center;
   max-width: 60rem;
@@ -200,11 +200,11 @@ input:focus {
 .grid > :nth-child(7n + 5) {
   grid-column: span 2;
   grid-row: span 1;
-}
+} */
 
 .tags {
   display: flex;
-  gap: 1rem;
+  gap: .5rem;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
