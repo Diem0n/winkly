@@ -19,10 +19,11 @@ Give us a wink ya dink!</p>
 
 # Release Notes
 
-#### Current Version: `1.1.2`
+#### Current Version: `1.1.3`
 
 | Version | Features |
 |---------|----------|
+| 1.1.3   | - Patched Styles |
 | 1.1.2   | - Patched Styles |
 | 1.1.1   | - Patched Styles |
 | 1.1.0   | - `new feature` Export Data In  ```JSON``` <br> <br> - `fix`  Overlapping Text Bug <br> <br> - `improvement` Tasks now sorted in the following order (newest-oldest) |
