@@ -15,14 +15,13 @@ Give us a wink ya dink!</p>
 
 ### Build Status
 
- [![Netlify Status](https://api.netlify.com/api/v1/badges/b1f35183-1cfe-4960-bd81-17931cd201b9/deploy-status)](https://app.netlify.com/sites/winkly/deploys)
-
+ [![Netlify Status](https://api.netlify.com/api/v1/badges/b1f35183-1cfe-4960-bd81-17931cd201b9/deploy-status)](https://app.netlify.com/sites/winkly/deploys) 
+[![Version](https://img.shields.io/badge/version-1.1.4-brown.svg)](https://github.com/diem0n/melophile)
 # Release Notes
-
-#### Current Version: `1.1.3`
 
 | Version | Features |
 |---------|----------|
+| 1.1.4   | - Patched Styles |
 | 1.1.3   | - Patched Styles |
 | 1.1.2   | - Patched Styles |
 | 1.1.1   | - Patched Styles |
